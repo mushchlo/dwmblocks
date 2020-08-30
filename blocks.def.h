@@ -5,7 +5,7 @@ static const Block blocks[] = {
 	{" ",  "iwctl station wlan0 show | grep Connected | awk -F ' ' '{ print $3 }'",        60,     9},
 	{"", "battery",    30,     10},
         {"", "getvolume",       0,      11},
-	{"", "barweather", 3600, 0},
+	{"", "barweather", 1200, 0},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
